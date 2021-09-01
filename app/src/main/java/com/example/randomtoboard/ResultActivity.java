@@ -50,8 +50,7 @@ public class ResultActivity extends AppCompatActivity {
             z = randomGenerate(list_class_room.size());
             if(list_class_room.get(z).getIs_board() == 0){
                 list_class_room.get(z).setIs_board(1);
-//
-//                                                TextView resultText = (TextView) findViewById(R.id.randomResult);
+
                 resultText.setText("" + ++z);
                 auRaspunsInt++;
                 auRaspuns.setText("Deja a fost ales "+ auRaspunsInt +" elevi");
